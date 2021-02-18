@@ -11,3 +11,7 @@ components:
     - page-models/dashboard-page-template.yaml
   widgets:
     - ui/widgets/octo/card-widget/card-widget-descriptor.yaml
+    - pure-widgets/octo-brand-copyright-descriptor.yaml
+    - pure-widgets/octo-brand-graphrow-descriptor.yaml
+    - pure-widgets/octo-brand-sidebar-descriptor.yaml
+    - pure-widgets/octo-brand-topbar-descriptor.yaml

@@ -1,7 +1,7 @@
 <#assign wp=JspTaglibs["/aps-core"]>
 <#--<#assign serverLocation = "http://localhost:3000">-->
 
-<#assign serverLocation = "<@wp.resourceURL />octo-poc-bundle">
+<#assign serverLocation = "/entando-de-app/cmsresources/octo-poc-bundle">
 
 
 
