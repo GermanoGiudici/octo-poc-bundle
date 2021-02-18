@@ -1,8 +1,8 @@
 code: octo-poc-bundle
 description: Octo Poc Bundle
 components:
-    plugins:
-        - plugins/octo-dashboard-bff-plugin.yaml
+  plugins:
+    - plugins/octo-dashboard-bff-plugin.yaml
   fragments:
     - fragments/import-map-ux-fragment.yaml
   widgets:
