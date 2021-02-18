@@ -7,7 +7,7 @@
 {
   "imports": {
     "single-spa": "https://cdn.jsdelivr.net/npm/single-spa/lib/system/single-spa.dev.js",
-    "octo-card-widget": "<@wp.resourceURL />single-spa-react-widget-bundle/static/js/octo-card-widget.js",
+    "octo-card-widget": "<@wp.resourceURL />/octo-poc-bundle/static/js/octo-card-widget.js"
   }
 }
 </script>

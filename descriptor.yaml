@@ -1,9 +1,10 @@
 code: octo-poc-bundle
 description: Octo Poc Bundle
 components:
+    plugins:
+        - plugins/octo-dashboard-bff-plugin.yaml
   fragments:
     - fragments/import-map-ux-fragment.yaml
   widgets:
     - ui/widgets/octo/card-widget/card-widget-descriptor.yaml
-# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
 

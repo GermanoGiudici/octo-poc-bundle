@@ -6,7 +6,7 @@
     System.import('single-spa').then(function (singleSpa) {
         System.import('octo-card-widget').then(parcel=>{
             const domElement = document.getElementById('octo-card-widget');
-            const parcelProps = {domElement, customProp1: 'foo'};
+            const parcelProps = {domElement, url: '/germanogiudici/dashboard-bff/0.0.1-SNAPSHOT/vehicle/total'};
             singleSpa.mountRootParcel(parcel, parcelProps);
         })
 
