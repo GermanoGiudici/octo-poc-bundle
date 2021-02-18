@@ -8,7 +8,7 @@ titles:
 configuration:
     frames:
         - pos: 0
-          descr: Sidebar Brand
+          description: Sidebar Brand
           mainFrame: false
           defaultWidget:
           sketch:
@@ -17,7 +17,7 @@ configuration:
               x2: 1
               y2: 0
         - pos: 1
-          descr: Top Navbar
+          description: Top Navbar
           mainFrame: false
           defaultWidget:
           sketch:
@@ -26,7 +26,7 @@ configuration:
               x2: 11
               y2: 0
         - pos: 2
-          descr: Card Row
+          description: Card Row
           mainFrame: false
           defaultWidget:
           sketch:
@@ -35,7 +35,7 @@ configuration:
               x2: 4
               y2: 4
         - pos: 3
-          descr: Graph Row
+          description: Graph Row
           mainFrame: false
           defaultWidget:
           sketch:
@@ -44,7 +44,7 @@ configuration:
               x2: 11
               y2: 9
         - pos: 4
-          descr: Copyright Row
+          description: Copyright Row
           mainFrame: false
           defaultWidget:
           sketch:
@@ -53,22 +53,4 @@ configuration:
               x2: 11
               y2: 10
 
-templatePath:
-
-# Optional. Define the Page Template this way or in a separate file with `templatePath`
-template: >-
-    <#assign wp=JspTaglibs[\"/aps-core\"]>
-    <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">
-    <html>
-        <head>
-            <title><@wp.currentPage param=\"title\" /></title>
-        </head>
-        <body>
-            <h1><@wp.currentPage param=\"title\" /></h1>
-            <a href=\"<@wp.url page=\"homepage\"/>\">Home</a><br>
-            <div>
-                <h1>Bundle 1 Page Template</h1>
-                <@wp.show frame=0 />
-            </div>
-        </body>
-    </html>
+templatePath: dashboard-page-template.ftl
