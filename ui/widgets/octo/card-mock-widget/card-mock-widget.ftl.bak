@@ -6,7 +6,7 @@
     System.import('single-spa').then(function (singleSpa) {
         System.import('octo-card-mock-widget').then(parcel=>{
             const domElement = document.getElementById('octo-card-mock-widget');
-            const parcelProps = {domElement, url: '/germanogiudici/dashboard-bff/diagnostics/metric'};
+            const parcelProps = {domElement, url: '/germanogiudici/dashboard-bff/0-0-1-snapshot/diagnostics/metric'};
             singleSpa.mountRootParcel(parcel, parcelProps);
         })
 
